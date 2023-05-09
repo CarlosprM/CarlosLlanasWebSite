@@ -1,0 +1,16 @@
+.gallerySection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galleryItem{
+    width: 40rem;
+    height: 50rem;
+    margin: 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.galleryTittle{
+    font-size: 10rem;
+}

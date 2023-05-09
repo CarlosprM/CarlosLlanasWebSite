@@ -1,0 +1,73 @@
+ .contentOffers{
+    background-color: var(--second-color);
+    display: flex;
+    padding: 3rem 10rem;
+     flex-wrap: wrap;
+ }
+ .containerOffers{
+     width: 50rem;
+     height: auto;
+ }
+ .attributes{
+    width: 25rem;
+    justify-content: center;
+    margin: 0 auto;
+ }
+
+ .containerUs{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     height: 110rem;
+     justify-content: center;
+ }
+ .us{
+    background-color: var(--second-color); 
+ }
+
+ .usText{
+     width: 120rem;
+     font-size: 4rem;
+ }
+ .us img {
+    width: 65rem;
+ }
+
+
+
+
+ .listActivities{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .collageImg{
+     width: 100rem;
+ }
+
+
+
+
+
+ .alucobond_tittle{
+     position: absolute;
+     left: 36%;
+     margin-top: 30rem;
+ }
+ .alucobond{
+     display: flex;
+     align-items: center;
+ }
+.alucobond_item{
+    width: 100rem;
+    height: auto;
+    margin: 0 5rem;
+}
+ .alucobond_item_text{
+     font-size: 3rem;
+     width: 100rem;
+ }
+.alucobond_item img{
+    border-radius: 1rem;
+}

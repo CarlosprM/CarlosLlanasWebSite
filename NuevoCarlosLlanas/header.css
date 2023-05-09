@@ -1,0 +1,26 @@
+header img{
+    width: 100vw;
+    display: flex;
+    position: relative;
+    height: 90vh;
+}
+
+header .headerText{
+
+    position: absolute;
+    z-index: 5;
+    background-color: var(--third-color);
+    width: 100vw;
+}
+header .headerContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logoContainer{
+    display: flex;
+}
+.logo img{
+    width: 10rem;
+    height: auto;
+}

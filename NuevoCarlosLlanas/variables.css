@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+ :root {
+    /*Devices*/
+    --telefono: 480px;
+    --tablet: 768px;
+    --desktop: 1024px;
+    /*Fonts*/
+    --main-font: 'Courier New', Courier, monospace;
+    /*Colors*/
+    --main-color: #F6F1F1;
+    --second-color: #19A7CE;
+    --third-color: #0f5473;
+    --fourth-color: #000000;
+    --separacion: 5rem;
+    /*Font Sizes*/
+    --thin: 300;
+    --regular : 400;
+    --boldbold: 700;
+    --black: 900;
+  }
+ 

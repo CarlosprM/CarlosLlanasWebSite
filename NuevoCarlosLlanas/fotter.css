@@ -1,0 +1,36 @@
+.footerContainer{
+    display: flex;
+    justify-content: end;
+}
+.footerContainer::before{
+    position:fixed;
+    width: 10rem;
+    bottom: 10rem;
+    right:13rem;
+    z-index: 100;
+    content: '¡Contactanos!';
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--fourth-color);
+    animation: traslacion 3s linear 2s infinite alternate;
+}
+.whatsappIcon{
+    position:fixed;
+    width: 10rem;
+    bottom:0;
+    right:0;
+    z-index: 100;
+    justify-content: end;
+
+    margin: 0 2rem 2rem 0;
+    /*ARRIBA DERECHA ABAJO IZQUIERDA*/
+    animation: rotacion 3s linear 2s infinite alternate;
+}
+@keyframes traslacion {
+    50%  {bottom: 13rem;}
+    100% {bottom: 10rem}
+}
+@keyframes rotacion {
+    50%  {rotate: 15deg; width: 13rem}
+    100% {rotate: 0deg; width: 10rem}
+}
